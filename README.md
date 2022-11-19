@@ -1,0 +1,2 @@
+# omikuzi-Web
+HTMLのおみくじ
