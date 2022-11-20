@@ -1,10 +1,14 @@
 from random import randint
 a = randint(1, 10)
 if a == 10:
-    print("大吉です")
+    i = "大吉"
+    pyscript.write("kekka",i)
 if a < 10 and a >7:
-    print("中吉です")
+    i = "中吉"
+    pyscript.write("kekka",i)
 if a < 7 and a > 1:
-    print("小吉です")
+    i = "小吉"
+    pyscript.write("kekka",i)
 if a == 1:
-    print("凶です")
+    i = "凶"
+    pyscript.write("kekka",i)
