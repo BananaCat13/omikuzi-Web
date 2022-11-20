@@ -5,19 +5,21 @@
 　　<body>
     <h1>おみくじ</h1>
     <button 
-     type="button">おみくじを引く</button>
+     type="button"
+     pts-onclick="omikuzi">おみくじを引く</button>
     <p>おみくじは2回引くべからず</p>
     <p>現在開発中</p>
     <py-script>
-    from random import randint
-    a = randint(1, 10)
-    if a == 10:
-        print("大吉")
-    if a < 10 and a > 7:
-        print("中吉")
-    if a < 7 and a > 1:
-        print("小吉")
-    if a == 1:
-        print("凶")
+    def omikuzi(*arg, **kws):
+        from random import randint
+        a = randint(1, 10)
+        if a == 10:
+            print("大吉")
+        if a < 10 and a > 7:
+            print("中吉")
+        if a < 7 and a > 1:
+            print("小吉")
+        if a == 1:
+            print("凶")
     </py-script>
     
