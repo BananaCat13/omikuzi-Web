@@ -9,17 +9,18 @@
      pys-onClick="omikuzi">おみくじを引く</button>
     <p>おみくじは1日2回引くべからず</p>
     <p>現在開発中</p>
+    <div id="kekka"></div>
     <py-script>
 def omikuzi(*arg, **kws):
     from random import randint
     a = randint(1, 10)
     if a == 10:
-        print("大吉")
+        pyscript.write("kekka", "大吉です")
     if a < 10 and a > 7:
-        print("中吉")
+        pyscript.write("kekka", "中吉です")
     if a < 7 and a > 1:
-        print("小吉")
+        pyscript.write("kekka", "小吉です")
     if a == 1:
-        print("凶")
+        pyscript.write("kekka", "凶です")
     </py-script>
     
