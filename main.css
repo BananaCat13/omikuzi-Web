@@ -4,5 +4,10 @@ font-size: 120px;
 }
 
 p {
-font-size: 240px;
+font-size: 60px;
+}
+
+h1 {
+color: red;
+font-size: 180px;
 }
