@@ -16,6 +16,11 @@ font-size: 180px;
 text-align: center;
 }
 
+a {
+color: blue;
+text-align: center;
+}
+
 .midasi {
 font-size: 240px;
 text-align: center;
