@@ -2,27 +2,34 @@ label {
 color: blue;
 font-size: 120px;
 text-align: center;
+display: block;
 }
 
 p {
 font-size: 60px;
 text-align: center;
-
+display: block;
 }
 
 h1 {
 color: red;
 font-size: 180px;
 text-align: center;
+display: block;
+
 }
 
 a {
 color: blue;
 text-align: center;
+display: block;
+
 }
 
-.midasi {
+p.midasi {
 font-size: 240px;
 text-align: center;
 color: yellow;
+display: block;
+
 }
