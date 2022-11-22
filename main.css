@@ -20,9 +20,10 @@ display: block;
 }
 
 a {
-color: blue;
+color: #00EEFF;
 text-align: center;
 display: block;
+text-decoration: underline;
 
 }
 
