@@ -6,7 +6,7 @@ if a == 10:
 if a < 10 and a >7:
     i = "中吉"
     pyscript.write("kekka",i)
-if a < 7 and a > 1:
+if a < 8 and a > 1:
     i = "小吉"
     pyscript.write("kekka",i)
 if a == 1:
